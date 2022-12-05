@@ -1,0 +1,55 @@
+body {
+ background-color: #eee;
+}
+* {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+a , .footer span{text-decoration: none; color: gray;}
+.container {
+ width: 935px;
+ margin: 0 auto;
+}
+.main{ margin-top: 70px;}
+.mainR , .mainL {
+ display:inline-block;
+width:49.5% ;
+text-align:center;
+vertical-align: top;
+ }
+
+.mainL img {
+ width: 100%
+}
+
+.mainForm   { 
+ background-color: #fff;
+ border: 1px solid rgb(226, 226, 226);
+ padding: 30px;
+}
+
+.mainForm form input{
+ display: block;
+ width: 100%;
+ margin: 10px;
+ padding: 10px;
+ box-sizing: border-box;
+ border: 1px solid rgb(198, 201, 201);
+ border-radius: 2px;
+ margin-bottom: 6px ;
+background-color: rgb(250, 248, 248);}
+
+ .mainForm form input:last-of-type {
+  border: 2px solid white; background-color: rgb(70, 118, 206); border-radius: 6px; margin-top: 15px;
+ color: white;}
+ .mainForm p:first-of-type { font-size: 19px; color: rgb(192, 188, 188); font-weight: bold;}
+ .mainForm p a {
+  font-weight: bold;
+ }
+ .mainLogin { background-color: #fff;
+ border: 1px solid rgb(226, 226, 226);}
+ .mainLogin p { display:inline-block; }
+ 
+ .main div {margin-bottom: 15px;}
+ .mainLinks img {display: inline-block; width: 170px;}
+.footer div { vertical-align: middle; text-align: center; margin: 15px;}
+
+
+
